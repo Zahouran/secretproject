@@ -1,0 +1,30 @@
+{
+  "name": "midterm",
+  "version": "1.0.0",
+  "description": "Mobile Application Midterm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Pierre Loubateres",
+  "license": "MIT",
+  "dependencies": {
+    "engine.io": "*",
+    "express": "*",
+    "socket.io": "*",
+    "twilio": "*",
+    "underscore": "*"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "sourceMaps": true,
+    "retainLines": true
+  }
+}
